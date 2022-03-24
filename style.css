@@ -1,0 +1,48 @@
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/02/74/77/35/360_F_274773563_zOhj4BISY2sF39FQ131LWF2LXC5eL6TA.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+  
+}
+
+
+form{
+    margin-left: 450px; 
+    margin-top: 0px;
+}
+
+h1 {
+        color: rgb(10, 10, 10);
+        font-size: 5rem;
+        text-align: center;
+        opacity: 1.4;
+      }
+      
+
+
+input{
+    padding: 12px 20px; 
+    margin: 8px 0;
+    border-radius: 2px; 
+    box-sizing: border-box;
+}
+.todos {
+    background-color: #ffeffa;
+    padding: 0;
+    margin: 0;
+    list-style-type: disc;
+  }
+  
+
+.todos li {
+    border-top: 0px  #ffeffa; 
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+  }
+  
+  .todos li.completed {
+    color: #b6b6b6;
+    text-decoration: line-through;
+  }
+
